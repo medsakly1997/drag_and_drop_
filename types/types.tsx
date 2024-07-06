@@ -9,3 +9,8 @@ export type Task = {
 export type TaskMap = {
   [key: string]: Task[];
 };
+
+export type Borad = {
+  columns: string[];
+  ordered: number[];
+};
