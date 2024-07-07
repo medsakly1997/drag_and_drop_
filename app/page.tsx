@@ -1,3 +1,5 @@
+"use client";
+import Dashboard from "@/components/Dashboard";
 import { Button } from "@/components/ui/button";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
@@ -13,7 +15,8 @@ export default function Home() {
         </Button>
       </div>
 
-      {/* Dashboard */}
+      <Dashboard />
+
       <div className="my-3 min-w-fit flex flex-col items-end">
         <h3 className="hidden lg:flex font-bold mb-2">Shortcuts</h3>
         <div className="hidden lg:flex items-center gap-1 text-sm font-medium ">
